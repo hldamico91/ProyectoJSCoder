@@ -1,12 +1,14 @@
 import './style.css';
+import React, { useState } from 'react';
+
 
 const ButtonComponent = () =>{
+    const [carrito, setCarrito] = useState([]);
+
     return  ( 
         <>
-        <button className="btn btn-secondary">Agregar producto al Carrito</button>
-        <button className="btn btn-secondary">Agregar producto al Carrito</button>
-        <button className="btn btn-secondary">Agregar producto al Carrito</button>
-        <button className="btn btn-secondary">Agregar producto al Carrito</button>
+        {console.log(carrito)}
+        <button  onClick={() => { setCarrito([... carrito, {name: 'Tablas'}]) }} className="btn btn-secondary"> Agregar al carrito </button>        
         </>
     )
 

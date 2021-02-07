@@ -1,6 +1,8 @@
 
 
 const NavbarComponent = () => {
+  
+
    return (
     <>
         <ul/> Productos
@@ -8,8 +10,7 @@ const NavbarComponent = () => {
         <li> Tablas </li>
         <li> Cuchillos </li>
         <li> Packs </li>
-
-
+        
     </>
 
   );

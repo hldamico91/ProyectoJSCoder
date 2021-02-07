@@ -1,7 +1,10 @@
-const ItemLisContainer = ({greeting}) => {
-    return (
-        <a className="h2" > {greeting} </a>
 
+const ItemLisContainer = ({greeting}) => {
+
+    return (
+        <>
+        <a className="h2" > {greeting} </a>
+        </>
     )
 
 }
