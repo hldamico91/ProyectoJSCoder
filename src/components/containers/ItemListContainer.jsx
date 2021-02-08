@@ -10,7 +10,6 @@ const ItemListContainer = (props) => {
              setContador(contador + 1);
         }
         else {
-            console.log("nos quedamos sin stock");
         }
     }
 
@@ -19,23 +18,23 @@ const ItemListContainer = (props) => {
             setContador(contador - 1);
          
         } else {
-            console.log("el valor es menor a lo que te podemos vender")
         }
     }
-
-
-
     return (
         <>
-
         <ItemCount stock={12} contador={contador} onSubstract={onSubstract} onAdd={onAdd} />
-
         </>
-
     )
 
-
-
+    
 }
 
 export default ItemListContainer
+
+
+
+
+
+
+
+

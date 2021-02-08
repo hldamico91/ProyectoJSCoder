@@ -9,10 +9,6 @@ export const ItemCount = ({stock, onAdd, contador, onSubstract}) => {
         <div/>
         </>
 
-
-
-
-
     );
 
 };

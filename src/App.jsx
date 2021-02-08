@@ -4,17 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemLisContainer from './components/containers/ItemListContainer';
 import Logo from './components/Navbar/CartWidget';
 import ButtonComponent from './components/button';
+import ItemPromise from './components/containers/itemPromise';
 
 
 
 function App () {
    return (
     <>
-    <Logo/> <h2>Little Wood</h2>
-    <NavbarComponent/>
+    <Logo/>
+    <ItemPromise/>
     <br/>
-    <ItemLisContainer greeting={"Bienvenidos a Little Wood"}/>
-    <ButtonComponent/>
 
 
 
