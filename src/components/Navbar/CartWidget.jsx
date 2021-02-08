@@ -4,8 +4,7 @@ const Logo = () => {
     return (
      <>
          <img src={logo} alt="Icono" href="#"/> 
-     
- 
+
      </>
  
    );
